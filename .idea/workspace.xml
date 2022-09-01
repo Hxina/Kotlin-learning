@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e4e4f88-869a-4e65-af3c-5be9181b8ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kotlin-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_1/1_HelloKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_1/2_VarAndVal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_1/3_BasicType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_1/4_Boolean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_2/1_Funciton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_2/2_CalcDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_2/3_ExerciseDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_3/1_IfAndElseDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_3/2_StringEquals.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_3/3_NullDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_3/4_WhenDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_4/1_LoopDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_4/2_ListDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_4/3_MapDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_5/1_Function.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_5/2_ParameterDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_5/3_ConvertTypeDemo.kt" afterDir="false" />
+    <list default="true" id="0e4e4f88-869a-4e65-af3c-5be9181b8ef0" name="Changes" comment="Day_1">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_10/1_ByDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_10/2_EnumDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_10/3_SealedCLassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_6/1_CalcDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_6/2_RecursionDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_7/1_Object-oriented.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_7/2_Object-oriented.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_7/3_Object-oriented.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_8/1_Inheritance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_8/2_Inheritance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_9/1_Interface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -53,48 +40,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "610f1d",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;610f1d&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin._3_ConvertTypeDemoKt">
-    <configuration name="_1_FunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_5._1_FunctionKt" />
+}</component>
+  <component name="RunManager" selected="Kotlin._3_SealedCLassDemoKt">
+    <configuration name="_1_ByDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_10._1_ByDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_ListDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_4._2_ListDemoKt" />
+    <configuration name="_1_InterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_9._1_InterfaceKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_ParameterDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_5._2_ParameterDemoKt" />
+    <configuration name="_2_EnumDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_10._2_EnumDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_ConvertTypeDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_5._3_ConvertTypeDemoKt" />
+    <configuration name="_3_InterfaceKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_8._3_InterfaceKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_MapDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_4._3_MapDemoKt" />
+    <configuration name="_3_SealedCLassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_10._3_SealedCLassDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._3_ConvertTypeDemoKt" />
-        <item itemvalue="Kotlin._2_ParameterDemoKt" />
-        <item itemvalue="Kotlin._1_FunctionKt" />
-        <item itemvalue="Kotlin._3_MapDemoKt" />
-        <item itemvalue="Kotlin._2_ListDemoKt" />
+        <item itemvalue="Kotlin._3_SealedCLassDemoKt" />
+        <item itemvalue="Kotlin._2_EnumDemoKt" />
+        <item itemvalue="Kotlin._1_ByDemoKt" />
+        <item itemvalue="Kotlin._1_InterfaceKt" />
+        <item itemvalue="Kotlin._3_InterfaceKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -118,14 +105,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661943401570</updated>
-      <workItem from="1661943402927" duration="10174000" />
+      <workItem from="1661943402927" duration="10801000" />
+      <workItem from="1661994361750" duration="10743000" />
     </task>
+    <task id="LOCAL-00001" summary="Day_1">
+      <created>1661953962484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661953962484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Day_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day_1" />
   </component>
 </project>
