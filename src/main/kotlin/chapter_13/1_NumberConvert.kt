@@ -11,6 +11,7 @@ fun main() {
     val number1: Int? = "8.98".toIntOrNull()
     println(number1)    // null
 
+    // 精度损失
     println(8.956765.toInt())       // 8
     // 四舍五入
     println(8.956765.roundToInt())  // 9
