@@ -1,5 +1,7 @@
 package chapter_12
 
+import java.util.*
+
 /**
  * @Author: Hxina
  * @Date: 2022/9/2 Friday 10:27
@@ -14,7 +16,7 @@ fun main() {
     str?.let {
         // 非空白字符串
         if (it.isNotBlank()) {
-            it.capitalize()
+            it.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
         } else {
             "null"
         }
@@ -37,7 +39,7 @@ fun main() {
     string = null
     string = string?.let {
         if (it.isNotBlank()) {
-            it.capitalize()
+            it.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
         } else {
             "kotlin_learning"
         }
@@ -48,14 +50,15 @@ fun main() {
 
     // !! 非空断言操作符，当变量值是null时，抛出空指针异常
     var str2 = "kotlin"
-    println(str2!!.capitalize())    // Kotlin
+    println(str2!!.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() })    // Kotlin
 
     println("******************")
 
     // 链式调用
-    str2 = str2?.capitalize()?.plus(" is great")!!
+    str2 = str2.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() }
+        ?.plus(" is great")!!
 
     // 空合并操作符 + let
-    str2 = str2?.let { it.capitalize() } ?: "Kotlin is bad!"
+    str2 = str2?.let { it.replaceFirstChar { if (it.isLowerCase()) it.titlecase(Locale.getDefault()) else it.toString() } } ?: "Kotlin is bad!"
     println(str2)   // Kotlin is great
 }
