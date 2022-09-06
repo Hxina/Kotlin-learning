@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4e4f88-869a-4e65-af3c-5be9181b8ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_15/1_Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_15/2_ConstructorFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_15/3_InitOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_15/4_LateinitDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_15/5_LazyInit.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_15/6_InitTrapTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/1_OpenClassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/2_ObjectDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/3_CompanionDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/4_NestClassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/5_DataClassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/6_CopyDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/7_DestructuringDeclaration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/8_OperatorOverloading.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/9_EnumClassDemo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chapter_12/1_NullSafe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_12/1_NullSafe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chapter_13/2_StandardFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_13/2_StandardFunction.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,48 +39,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "610f1d",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;610f1d&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin._5_LazyInitKt">
-    <configuration name="_1_PlayerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_15._1_PlayerKt" />
+}</component>
+  <component name="RunManager" selected="Kotlin._9_EnumClassDemoKt">
+    <configuration name="_5_DataClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_16._5_DataClassDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_ConstructorFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_15._2_ConstructorFunctionKt" />
+    <configuration name="_6_CopyDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_16._6_CopyDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_4_LateinitDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_15._4_LateinitDemoKt" />
+    <configuration name="_7_DestructuringDeclarationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_16._7_DestructuringDeclarationKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_4_MapDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_14._4_MapDemoKt" />
+    <configuration name="_8_OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_16._8_OperatorOverloadingKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_5_LazyInitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_15._5_LazyInitKt" />
+    <configuration name="_9_EnumClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_16._9_EnumClassDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._5_LazyInitKt" />
-        <item itemvalue="Kotlin._4_LateinitDemoKt" />
-        <item itemvalue="Kotlin._2_ConstructorFunctionKt" />
-        <item itemvalue="Kotlin._1_PlayerKt" />
-        <item itemvalue="Kotlin._4_MapDemoKt" />
+        <item itemvalue="Kotlin._9_EnumClassDemoKt" />
+        <item itemvalue="Kotlin._8_OperatorOverloadingKt" />
+        <item itemvalue="Kotlin._7_DestructuringDeclarationKt" />
+        <item itemvalue="Kotlin._5_DataClassDemoKt" />
+        <item itemvalue="Kotlin._6_CopyDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +109,8 @@
       <workItem from="1662081682586" duration="11687000" />
       <workItem from="1662183642775" duration="42000" />
       <workItem from="1662290919565" duration="9189000" />
-      <workItem from="1662340017771" duration="10893000" />
+      <workItem from="1662340017771" duration="11570000" />
+      <workItem from="1662426741190" duration="9005000" />
     </task>
     <task id="LOCAL-00001" summary="Day_1">
       <created>1661953962484</created>
@@ -136,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662300852052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day_5">
+      <created>1662365205046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662365205046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +158,7 @@
     <MESSAGE value="Day_2" />
     <MESSAGE value="Day_3" />
     <MESSAGE value="Day_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day_4" />
+    <MESSAGE value="Day_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day_5" />
   </component>
 </project>

@@ -34,14 +34,14 @@ fun main() {
     println(res)     // 9
 
     println(formatGreeting(null))       // What's your name?
-    println(formatGreeting("Kotlin"))   // Kotlin
+    println(formatGreeting("Kotlin"))   // Welcome, Kotlin
 
 
     // run 函数
     // run 和 apply 很相似，但与 apply 不同，run 函数不返回接收者
     // run 返回的是 lambda 结果， true 或 false 或 其它类型
     // 执行函数引用
-    val file3 = File("G:\\run_copy.txt")
+    val file3 = File("G://run_copy.txt")
     val result: Boolean = file3.run {
         readText().contains("Kotlin")
     }
