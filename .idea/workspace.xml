@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4e4f88-869a-4e65-af3c-5be9181b8ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/1_OpenClassDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/2_ObjectDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/3_CompanionDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/4_NestClassDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/5_DataClassDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/6_CopyDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/7_DestructuringDeclaration.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/8_OperatorOverloading.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/9_EnumClassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/10_AlgebraicDataType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/11_SealedClassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/12_InterfaceTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/13_AbstractClassDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_17/1_GenericTypeDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_17/2_GenericTypeDemo2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_17/3_GenericTypeDemo3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chapter_13/2_StandardFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_13/2_StandardFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/chapter_16/5_DataClassDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_16/5_DataClassDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,37 +48,37 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._9_EnumClassDemoKt">
-    <configuration name="_5_DataClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_16._5_DataClassDemoKt" />
+  <component name="RunManager" selected="Kotlin._3_GenericTypeDemo3Kt">
+    <configuration name="_10_AlgebraicDataTypeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_16._10_AlgebraicDataTypeKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6_CopyDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_16._6_CopyDemoKt" />
+    <configuration name="_11_SealedClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_16._11_SealedClassDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_7_DestructuringDeclarationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_16._7_DestructuringDeclarationKt" />
+    <configuration name="_1_GenericTypeDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_17._1_GenericTypeDemoKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_8_OperatorOverloadingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_16._8_OperatorOverloadingKt" />
+    <configuration name="_2_GenericTypeDemo2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_17._2_GenericTypeDemo2Kt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_9_EnumClassDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_16._9_EnumClassDemoKt" />
+    <configuration name="_3_GenericTypeDemo3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_17._3_GenericTypeDemo3Kt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._9_EnumClassDemoKt" />
-        <item itemvalue="Kotlin._8_OperatorOverloadingKt" />
-        <item itemvalue="Kotlin._7_DestructuringDeclarationKt" />
-        <item itemvalue="Kotlin._5_DataClassDemoKt" />
-        <item itemvalue="Kotlin._6_CopyDemoKt" />
+        <item itemvalue="Kotlin._3_GenericTypeDemo3Kt" />
+        <item itemvalue="Kotlin._2_GenericTypeDemo2Kt" />
+        <item itemvalue="Kotlin._1_GenericTypeDemoKt" />
+        <item itemvalue="Kotlin._11_SealedClassDemoKt" />
+        <item itemvalue="Kotlin._10_AlgebraicDataTypeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -110,7 +108,8 @@
       <workItem from="1662183642775" duration="42000" />
       <workItem from="1662290919565" duration="9189000" />
       <workItem from="1662340017771" duration="11570000" />
-      <workItem from="1662426741190" duration="9005000" />
+      <workItem from="1662426741190" duration="9250000" />
+      <workItem from="1662515309633" duration="10482000" />
     </task>
     <task id="LOCAL-00001" summary="Day_1">
       <created>1661953962484</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662365205046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day_6">
+      <created>1662441854973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662441854973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +165,7 @@
     <MESSAGE value="Day_3" />
     <MESSAGE value="Day_4" />
     <MESSAGE value="Day_5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day_5" />
+    <MESSAGE value="Day_6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day_6" />
   </component>
 </project>
