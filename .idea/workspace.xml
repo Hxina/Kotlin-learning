@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4e4f88-869a-4e65-af3c-5be9181b8ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_18/1_InOutDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_18/2_ReifiedDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/1_ExtentionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/2_GenericExtensionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/3_ExtendedProperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/4_NullExtentionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/5_InfixDemo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/6_ExtImport.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/extImport/IterableExt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._2_ReifiedDemoKt">
-    <configuration name="_1_GenericTypeDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_17._1_GenericTypeDemoKt" />
+  <component name="RunManager" selected="Kotlin._4_NullExtentionFunctionKt">
+    <configuration name="_1_ExtentionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_19._1_ExtentionFunctionKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,13 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_GenericTypeDemo2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_17._2_GenericTypeDemo2Kt" />
-      <module name="Kotlin-learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_2_ReifiedDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter_18._2_ReifiedDemoKt" />
       <module name="Kotlin-learning" />
@@ -71,8 +69,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_GenericTypeDemo3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_17._3_GenericTypeDemo3Kt" />
+    <configuration name="_3_ExtendedPropertiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_19._3_ExtendedPropertiesKt" />
+      <module name="Kotlin-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4_NullExtentionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_19._4_NullExtentionFunctionKt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._4_NullExtentionFunctionKt" />
+        <item itemvalue="Kotlin._3_ExtendedPropertiesKt" />
+        <item itemvalue="Kotlin._1_ExtentionFunctionKt" />
         <item itemvalue="Kotlin._2_ReifiedDemoKt" />
         <item itemvalue="Kotlin._1_InOutDemoKt" />
-        <item itemvalue="Kotlin._3_GenericTypeDemo3Kt" />
-        <item itemvalue="Kotlin._2_GenericTypeDemo2Kt" />
-        <item itemvalue="Kotlin._1_GenericTypeDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +109,9 @@
       <workItem from="1662340017771" duration="11570000" />
       <workItem from="1662426741190" duration="9250000" />
       <workItem from="1662515309633" duration="10570000" />
-      <workItem from="1662602458997" duration="5438000" />
+      <workItem from="1662602458997" duration="5777000" />
+      <workItem from="1662686876902" duration="2133000" />
+      <workItem from="1662689047352" duration="3387000" />
     </task>
     <task id="LOCAL-00001" summary="Day_1">
       <created>1661953962484</created>
@@ -155,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662530239583</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day_8">
+      <created>1662611148812</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662611148812</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +183,7 @@
     <MESSAGE value="Day_5" />
     <MESSAGE value="Day_6" />
     <MESSAGE value="Day_7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day_7" />
+    <MESSAGE value="Day_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day_8" />
   </component>
 </project>
