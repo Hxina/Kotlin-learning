@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4e4f88-869a-4e65-af3c-5be9181b8ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/1_ExtentionFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/2_GenericExtensionFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/3_ExtendedProperties.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/4_NullExtentionFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/5_InfixDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/6_ExtImport.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/extImport/IterableExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_19/7_ApplyFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_20/1_函数式编程.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chapter_20/2_函数类别.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2E7OxOuC79SwWTPFXt9IAHracKT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,10 +43,10 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin._4_NullExtentionFunctionKt">
+  <component name="RunManager" selected="Kotlin._2_函数类别Kt">
     <configuration name="_1_ExtentionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter_19._1_ExtentionFunctionKt" />
       <module name="Kotlin-learning" />
@@ -55,15 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_InOutDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_18._1_InOutDemoKt" />
-      <module name="Kotlin-learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2_ReifiedDemoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter_18._2_ReifiedDemoKt" />
+    <configuration name="_2_函数类别Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_20._2_函数类别Kt" />
       <module name="Kotlin-learning" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,13 +75,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_7_ApplyFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter_20._7_ApplyFunctionKt" />
+      <module name="Kotlin-learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._2_函数类别Kt" />
+        <item itemvalue="Kotlin._7_ApplyFunctionKt" />
         <item itemvalue="Kotlin._4_NullExtentionFunctionKt" />
         <item itemvalue="Kotlin._3_ExtendedPropertiesKt" />
         <item itemvalue="Kotlin._1_ExtentionFunctionKt" />
-        <item itemvalue="Kotlin._2_ReifiedDemoKt" />
-        <item itemvalue="Kotlin._1_InOutDemoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +110,9 @@
       <workItem from="1662515309633" duration="10570000" />
       <workItem from="1662602458997" duration="5777000" />
       <workItem from="1662686876902" duration="2133000" />
-      <workItem from="1662689047352" duration="3387000" />
+      <workItem from="1662689047352" duration="5217000" />
+      <workItem from="1662698787683" duration="1481000" />
+      <workItem from="1662773445752" duration="14132000" />
     </task>
     <task id="LOCAL-00001" summary="Day_1">
       <created>1661953962484</created>
@@ -169,11 +170,29 @@
       <option name="project" value="LOCAL" />
       <updated>1662611148812</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day_9">
+      <created>1662697044873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662697044873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day_1" />
@@ -184,6 +203,7 @@
     <MESSAGE value="Day_6" />
     <MESSAGE value="Day_7" />
     <MESSAGE value="Day_8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day_8" />
+    <MESSAGE value="Day_9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day_9" />
   </component>
 </project>
