@@ -19,6 +19,8 @@ fun main() {
     mapDemo()
     flatMapDemo()
     filterDemo()
+    combineDemo()
+    foldDemo()
 }
 
 // map
@@ -75,4 +77,31 @@ fun filterDemo() {
             .none { it == 0 }
     }
     println(primes)     // [1, 7, 43, 73, 103]
+}
+
+// combine ---合并
+// 合并是函数式编程的第三大类函数，合并函数能将不同的集合合并成一个新集合，这和接收者是包含集合的集合的 flatMap 函数不同
+fun combineDemo() {
+    val employees: List<String> = listOf("Kotlin4", "Android", "Jetpack4")
+    val ages: List<Int> = listOf(24, 25, 26)
+
+    val employeeAges: Map<String, Int> = employees.zip(ages).toMap()
+    println(employeeAges["Android"])    // 25
+}
+
+// fold
+// fold 是可以用来合并值的合并函数，该合并函数接受一个初始累加器值，随后会根据匿名函数的结果更新
+fun foldDemo() {
+    val foldValue: Int = listOf(1, 2, 3, 4).fold(0) { accumulator, number ->
+        println("accumulator value: $accumulator")
+        accumulator + (number * 3)
+    }
+    println(foldValue)
+    /*
+        accumulator value: 0
+        accumulator value: 3
+        accumulator value: 9
+        accumulator value: 18
+        30
+    */
 }
